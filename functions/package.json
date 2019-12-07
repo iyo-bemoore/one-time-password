@@ -12,9 +12,10 @@
     "node": "8"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "firebase-admin": "^8.6.0",
     "firebase-functions": "^3.3.0",
-    "twilio": "^3.0.0-rc.13"
+    "twilio": "^3.38.0"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.1.6"
