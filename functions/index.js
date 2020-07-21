@@ -6,8 +6,6 @@ const serviceAccount = require("./accounts/service_account.json");
 const requestOneTimePassword = require("./request_one_time_password");
 const verifyOneTimePassword = require("./verify_one_time_password");
 
-dotenv.config();
-
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://one-time-password-478f4.firebaseio.com"

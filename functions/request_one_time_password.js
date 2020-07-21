@@ -1,10 +1,8 @@
 const helpers = require("./helpers");
 const admin = require("firebase-admin");
 const twilio = require("./twilio");
-const dotenv = require("dotenv");
 const PHONE = helpers.phone;
 const sanitize = helpers.sanitize;
-dotenv.config();
 
 module.exports = function(req, res) {
   if (!req.body.phone) {
